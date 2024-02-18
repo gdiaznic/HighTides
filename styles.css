@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+.container-fluid {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    font-family: 'Amatic SC', cursive;
+    font-size: xxx-large;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ul {
+    list-style-type: none;
+}
+
+span {
+    font-weight: bold;
+}
+
+div.card {
+    filter: drop-shadow(1px 5px 5px #333);
+}
+
+#aboutus {
+    background-color: #FFFFFF;
+}
+
+#hourslocations {
+    background-color: #333;
+    color: white;
+}
+
+img[alt="goat"] {
+    transform: scale(1);
+    filter: drop-shadow(1px 5px 5px #333);
+}
+
+img[alt="inverted"] {
+    transform: scale(1);
+}
+
+img[alt="logo"] {
+    transform: scale(1);
+}
+
+#footer {
+    background-color: #FFFFFF;
+}
+
+img[alt="logo1"] {
+    height: 25vh;
+}
+
